@@ -7,10 +7,11 @@
 I build a multilinear regression model using : ols method
 various steps for multilinear regression models are :
 ##### 1.EDA
-+columns names
-+columns data types
-+duplicacy in records
-+outlier detection
++ columns names
++ columns data types
++ duplicacy in records
++ outlier detection
++ etc...
 ##### 2.checking linearity
 + pairplot
 ##### 3.correlation analysis
@@ -27,11 +28,12 @@ various steps for multilinear regression models are :
 ##### 6.dealing with problematic rows
 + checking influential points (cook's distance)
 + improving model (trial mode)
+##### 7. final model 
 After dealing with all the above case we build our final model. Final model has good R-squared value, less AIC value, significal p-value. Having all these requirements, we can now approve our model.
 
 **Conclusion :**
-models	Rsquared
-0	model	0.961758
-1	model1	0.961316
-2	model2	0.961086
-3	final_model	0.965359
+
+[model1 -	0.961758 (R-squared)]
+[model2 -	0.961316 (R-squared)]
+[model3 -	0.961086 (R-squared)]
+[final_model -	0.965359 (R-squared)]
